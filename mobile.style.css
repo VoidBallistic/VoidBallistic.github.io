@@ -1,0 +1,421 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+  }
+
+  nav {
+    display: grid;
+    top: 30px;
+    left: 70px;
+    font-size: 12px;
+  }
+
+  .a {
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    height: 13vh;
+  }
+
+  .page {
+    height: 100vh;
+  }
+
+  .navbar-link-list {
+    position: absolute;
+    top: 70px;
+    left: -30px;
+    width: 0px;
+  }
+
+  .navbar-link {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    font-size: 1.12rem;
+  }
+
+  .navbar-link2 {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 1.12rem;
+  }
+
+  .navbar-link3 {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    font-size: 1.12rem;
+  }
+
+  .navbar-link4 {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    font-size: 1.12rem;
+  }
+
+
+
+
+
+  .navbar-link:hover {
+    background-size: 100% 100%;
+  }
+
+  .navbar-link2:hover {
+    background-size: 100% 100%;
+  }
+
+  .navbar-link3:hover {
+    background-size: 100% 100%;
+  }
+
+  .container {
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 130px;
+  }
+
+  p {
+    position: absolute;
+    top: 10px;
+    left: -80px;
+    width: 150px;
+  }
+
+  .animation {
+    height: 35px;
+    text-align: center;
+    top: 400px;
+    left: 600px;
+    width: 250px;
+    overflow: hidden;
+  }
+
+  .gallery {
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    border: 6px solid #aeaeae;
+    border-radius: 2px;
+    padding: 2px;
+    width: 150px;
+    height: 250px;
+  }
+
+  .gallery img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .mine {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: 10px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .head-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    pointer-events: none;
+    top: 480px;
+    left: 80px;
+  }
+
+  .num-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    pointer-events: none;
+    top: 490px;
+    left: 250px;
+  }
+
+  .map-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    pointer-events: none;
+    top: 620px;
+    left: 80px;
+  }
+
+  .step-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    pointer-events: none;
+    top: 613px;
+    left: 250px;
+  }
+
+  .text1 {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    top: 550px;
+    left: 45px;
+    font-size: 9px;
+  }
+
+  .text2 {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    top: 520px;
+    left: 220px;
+    font-size: 9px;
+  }
+
+  .text3 {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 620px;
+    left: 37px;
+    font-size: 9px;
+  }
+
+  .text4 {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 590px;
+    left: 205px;
+    font-size: 9px;
+  }
+
+  /*Photograph*/
+
+  #photography h1 {
+    position: absolute;
+    top: 1140px;
+    left: 20px;
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  .boxcards {
+    width: 4%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+    top: 10px;
+  }
+
+  .card--3 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+  }
+
+  .card {
+    width: 140px;
+    height: 355px;
+  }
+
+  .card__category {
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+
+  }
+
+  .card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    font-weight: bold;
+  }
+
+  .card__by {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+  }
+
+  .card__author {
+    font-weight: bold;
+    position: relative;
+    left: 2px;
+    font-size: 8px;
+  }
+
+  /*About*/
+  #about img {
+    top: 100px;
+    left: 110px;
+    width: 150px;
+
+
+  }
+
+  .mines {
+    top: 15px;
+    left: 25px;
+    font-size: 15px;
+    width: 275px;
+
+  }
+
+  .containers .cards .boxs {
+    position: relative;
+    top: 420px;
+    left: 0px;
+  }
+
+
+  /*Contact*/
+
+  .card-client {
+
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    box-shadow: 0 6px 10px #212121;
+    border-radius: 5px;
+    border: 4px solid #aeaeae;
+    border-radius: 4px;
+
+
+    position: relative;
+    top: 130px;
+    left: 90px;
+    height: 265px;
+    width: 200px;
+  }
+
+  .user-picture {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .user-picture img {
+    position: center;
+    width: 80px;
+    height: 120px;
+  }
+
+  .name-client {
+
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .name-client span {
+    font-weight: 200;
+    font-size: 7px;
+  }
+
+
+
+  .social-media:before {
+    margin: 5px 0;
+
+  }
+
+  .social-media img {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    width: 15px;
+    height: 20px;
+  }
+
+  .tooltip-social {
+    background: #262626;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 23px;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -90%);
+    transition: all 0.2s ease;
+    z-index: 1;
+  }
+
+
+  .Num_Email {
+    position: relative;
+    top: 10px;
+    left: 6px;
+    font-size: 11px;
+    width: 210px;
+  }
+
+  .address {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    font-size: 10px;
+  }
+
+  .alright {
+    position: relative;
+    top: 35px;
+    left: 0px;
+    font-size: 10px;
+  }
+
+
+  .form {
+    gap: 2px;
+    position: relative;
+    top: 150px;
+    left: 80px;
+    max-width: 180px;
+    padding: 10px;
+  }
+
+  .title {
+    position: relative;
+    top: -10px;
+    left: -40px;
+    width: 240px;
+    font-size: 20px;
+
+  }
+
+  .form textarea {
+    height: 40px;
+    width: 20px;
+
+  }
+
+  .submit {
+    height: 20px;
+    width: 130px;
+    left: 35px;
+    padding: 1px;
+    font-size: 15px;
+  }
+
+}
